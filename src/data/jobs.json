@@ -1,0 +1,42 @@
+[
+  {
+    "id": "software-developer",
+    "title": "Software Developer",
+    "description": "Full-time position available in both locations",
+    "details": "We are seeking skilled software developers to build innovative solutions for our clients. Experience with modern web technologies and frameworks is required.",
+    "type": "Full-time",
+    "locations": ["Gurugram", "Ahmedabad"]
+  },
+  {
+    "id": "resume-writer",
+    "title": "Resume Writer",
+    "description": "Full-time and part-time positions available",
+    "details": "Join our professional writing team to create compelling resumes and cover letters that help job seekers stand out in competitive markets.",
+    "type": "Full-time/Part-time",
+    "locations": ["Remote"]
+  },
+  {
+    "id": "application-recruiter",
+    "title": "Application Recruiter",
+    "description": "Full-time position available in both locations",
+    "details": "Help us find and attract top talent for our clients. Strong communication skills and experience in recruitment processes are essential.",
+    "type": "Full-time",
+    "locations": ["Gurugram", "Ahmedabad"]
+  },
+  {
+    "id": "data-analyst",
+    "title": "Data Analyst",
+    "description": "Full-time position available in both locations",
+    "details": "Turn data into actionable insights for our clients. Proficiency in data analysis tools and statistical methods is required.",
+    "type": "Full-time",
+    "locations": ["Gurugram", "Ahmedabad"]
+  },
+  {
+    "id": "HR-Executive",
+    "title": "HR Executive",
+    "description": "Full-time position available in both locations",
+    "details": "Turn HR Skills into actionable insights for our company. Proficiency in communication and management is required.",
+    "type": "Full-time",
+    "locations": ["Gurugram", "Ahmedabad"]
+  }
+]
