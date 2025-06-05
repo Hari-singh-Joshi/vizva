@@ -30,13 +30,16 @@ const formSchema = z.object({
 });
 
 type FormValues = z.infer<typeof formSchema>;
+type MyComponentProps = {
+  jobTitle?: string; // optional now
+};
 
-export default function JobForm() {
+export default function JobForm({ jobTitle }: MyComponentProps){
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [formStatus, setFormStatus] = useState<{ submitted: boolean }>({
     submitted: false,
   });
-
+ 
   const form = useForm<FormValues>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -80,6 +83,8 @@ export default function JobForm() {
   return (
     <Card>
       <CardContent className="pt-6">
+      <h2 className="text-xl font-semibold mb-4">Apply for: {jobTitle}</h2>
+
         {formStatus.submitted && (
           <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-md">
             <h3 className="font-medium text-green-800">Form Submitted Successfully!</h3>
