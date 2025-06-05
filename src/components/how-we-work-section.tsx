@@ -68,7 +68,7 @@ export default function HowWeWorkSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold  mb-4">How We Work</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl  max-w-3xl mx-auto">
             Our proven process ensures we deliver exceptional results for every client.
           </p>
         </div>
@@ -90,7 +90,7 @@ export default function HowWeWorkSection() {
                   {step.icon}
                 </div>
                 <h3 className="text-xl font-semibold mb-2">{step.title}</h3>
-                <p className="text-gray-600">{step.description}</p>
+                <p className="">{step.description}</p>
               </motion.div>
             ))}
           </div>
@@ -100,7 +100,7 @@ export default function HowWeWorkSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <h3 className="text-2xl font-bold mb-4">Schedule a Consultation</h3>
-            <p className="text-gray-600 mb-6">
+            <p className="mb-6">
               Ready to start your project? Schedule a free consultation with our team to discuss your needs and how we
               can help.
             </p>
@@ -109,28 +109,28 @@ export default function HowWeWorkSection() {
                 <Calendar className="h-6 w-6 text-primary mr-4 mt-1 flex-shrink-0" />
                 <div>
                   <h4 className="font-medium">Flexible Scheduling</h4>
-                  <p className="text-gray-600">We offer appointments that fit your schedule</p>
+                  <p className="">We offer appointments that fit your schedule</p>
                 </div>
               </div>
               <div className="flex items-start">
                 <Clock className="h-6 w-6 text-primary mr-4 mt-1 flex-shrink-0" />
                 <div>
                   <h4 className="font-medium">Quick Response</h4>
-                  <p className="text-gray-600">We will get back to you within 24 hours</p>
+                  <p className="">We will get back to you within 24 hours</p>
                 </div>
               </div>
               <div className="flex items-start">
                 <MessageSquare className="h-6 w-6 text-primary mr-4 mt-1 flex-shrink-0" />
                 <div>
                   <h4 className="font-medium">Personalized Approach</h4>
-                  <p className="text-gray-600">Tailored solutions for your specific needs</p>
+                  <p className="">Tailored solutions for your specific needs</p>
                 </div>
               </div>
             </div>
             <div className=" p-6 rounded-lg">
               <h4 className="font-medium mb-2">Our Office Hours</h4>
-              <p className="text-gray-600 mb-1">Monday - Friday: 6:30 PM - 3:30 AM</p>
-              <p className="text-gray-600">Saturday and Sunday off</p>
+              <p className=" mb-1">Monday - Friday: 6:30 PM - 3:30 AM</p>
+              <p className="">Saturday and Sunday off</p>
             </div>
           </div>
 

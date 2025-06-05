@@ -202,7 +202,7 @@ export default function HeroSection() {
             <div key={index} className=" p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
               <div className="text-4xl mb-4">{value.icon}</div>
               <h3 className="text-xl font-semibold mb-2">{value.title}</h3>
-              <p className="text-gray-600">{value.description}</p>
+              <p className="">{value.description}</p>
             </div>
           ))}
         </div>
@@ -212,7 +212,7 @@ export default function HeroSection() {
       <div className=" py-16 px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-white-900 mb-4">Team Unity</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl max-w-3xl mx-auto">
             Comprehensive solutions tailored to your business needs
           </p>
         </div>
@@ -231,7 +231,7 @@ export default function HeroSection() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
-                <p className="text-gray-600">{service.description}</p>
+                <p className="">{service.description}</p>
               </div>
             </motion.div>
           ))}

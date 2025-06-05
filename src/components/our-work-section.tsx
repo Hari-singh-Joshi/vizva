@@ -54,7 +54,7 @@ export default function OurWorkSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold  mb-4">Our Work</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl  max-w-3xl mx-auto">
             We have partnered with amazing companies to deliver exceptional results
           </p>
         </div>
