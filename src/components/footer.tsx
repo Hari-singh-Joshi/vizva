@@ -7,7 +7,7 @@ import { Mail, Phone, MapPin } from "lucide-react"
 
 export default function Footer() {
   return (
-    <footer className="bg-muted/30 py-12 md:py-16">
+    <footer className="bg/30 py-12 md:py-16">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-5 gap-10">
           {/* 1. Logo & About */}
@@ -22,7 +22,7 @@ export default function Footer() {
                 />
               </div>
             </Link>
-            <ul className="space-y-3 text-muted-foreground text-sm">
+            <ul className="space-y-3 text-foreground text-sm">
   <li>
     <Link href="mailto:info@vizvainc.com" className="flex items-start gap-2 hover:text-foreground transition-colors">
       <Mail className="w-4 h-4 mt-1" />
@@ -72,13 +72,13 @@ export default function Footer() {
 
             <br/>
             <div className="flex gap-4">
-              <Link href="https://github.com" target="_blank" className="text-muted-foreground hover:text-foreground">
+              <Link href="https://github.com" target="_blank" className="text-foreground hover:text-foreground">
                 <Github className="h-5 w-5" />
               </Link>
-              <Link href="https://linkedin.com" target="_blank" className="text-muted-foreground hover:text-foreground">
+              <Link href="https://www.linkedin.com/company/vizvaconsultancyservices?trk=public_post_feed-actor-name" target="_blank" className="text-foreground hover:text-foreground">
                 <Linkedin className="h-5 w-5" />
               </Link>
-              <Link href="https://twitter.com" target="_blank" className="text-muted-foreground hover:text-foreground">
+              <Link href="https://x.com/Vizvainc" target="_blank" className="text-foreground hover:text-foreground">
                 <Twitter className="h-5 w-5" />
               </Link>
             </div>
@@ -87,8 +87,8 @@ export default function Footer() {
           {/* 2. Company */}
           <div>
             <h3 className="font-medium text-lg mb-4">Services</h3>
-            <ul className="space-y-2 text-muted-foreground text-sm">
-              <li><Link href="/about">Staffing</Link></li>
+            <ul className="space-y-2 text-foreground text-sm">
+              <li><Link href="/staffing">Staffing</Link></li>
               <li><Link href="/services">Software Development & IT Consultation</Link></li>
               <li><Link href="/careers">Compliance Services</Link></li>
               <li><Link href="/contact">Accounting and Book Keeping</Link></li>
@@ -98,7 +98,7 @@ export default function Footer() {
           {/* 3. Resources */}
           <div>
             <h3 className="font-medium text-lg mb-4">Industries</h3>
-            <ul className="space-y-2 text-muted-foreground text-sm">
+            <ul className="space-y-2 text-foreground text-sm">
               <li><Link href="/blog">Information Technology</Link></li>
               <li><Link href="/faq">Bockchain</Link></li>
               <li><Link href="/terms">Banking</Link></li>
@@ -110,10 +110,10 @@ export default function Footer() {
           {/* 4. Services */}
           <div>
             <h3 className="font-medium text-lg mb-4">Info</h3>
-            <ul className="space-y-2 text-muted-foreground text-sm">
-              <li><Link href="/it-staffing">About Us</Link></li>
-              <li><Link href="/product-dev">Careers</Link></li>
-              <li><Link href="/consulting">Privacy Policy</Link></li>
+            <ul className="space-y-2 text-foreground text-sm">
+              <li><Link href="/location">About Us</Link></li>
+              <li><Link href="/career">Careers</Link></li>
+              <li><Link href="/privacy">Privacy Policy</Link></li>
            
             </ul>
           </div>
@@ -121,7 +121,7 @@ export default function Footer() {
           {/* 5. Contact */}
           <div>
             <h3 className="font-medium text-lg mb-4">Useful Links</h3>
-            <ul className="space-y-2 text-muted-foreground text-sm">
+            <ul className="space-y-2 text-foreground text-sm">
               <li>Appointments</li>
               <li>FAQ</li>
             </ul>
@@ -130,14 +130,14 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t mt-12 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-muted-foreground text-center">
+          <p className="text-sm text-foreground text-center">
             © {new Date().getFullYear()} Vizva Consultancy Services. All rights reserved.
           </p>
           <div className="flex gap-6">
-            <Link href="/privacy" className="text-sm text-muted-foreground hover:text-foreground">
+            <Link href="/privacy" className="text-sm text-foreground hover:text-foreground">
               Privacy Policy
             </Link>
-            <Link href="/terms" className="text-sm text-muted-foreground hover:text-foreground">
+            <Link href="/terms" className="text-sm text-foreground hover:text-foreground">
               Terms of Service
             </Link>
           </div>
